@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <!--  -->
+    <head>
+        <meta charset="utf-8" />
+        <title>XIUAMON!</title>
+        <script src="./js/xiuamon.js"></script>
+        <link rel="stylesheet" href="./styles.css"> 
+    </head>
+    <body>
+        <section id="seleccionar-xiuamon">
+           <h1 class="titulo">🏞️💧⚡🍃🔥🏞️ XIUAMON! 🏞️🐢🐹🐸🐉🏞️</h1>
+           
+           <h2 class="subttlo">Elige tu  Xiuamon</h2>
+
+           <div class="trjtas">
+                <input type="radio" name="xiuamon"  id="helix_aspersa"/>
+                <label class="tarjetaDxiuamon" for="helix_aspersa">
+                    <p>Helix aspersa</p>
+                    <img src="./assets/babosa.png" alt="Helix aspersa">
+                </label>
+                
+                <input type="radio" name="xiuamon" id="guabina"/>
+                <label class="tarjetaDxiuamon" for="guabina">
+                    <p>Guabina</p>
+                    <img src="./assets/pez.png" alt="Guabina">
+                </label>
+                
+                <input type="radio" name="xiuamon" id="stenocercus"/>           
+                <label class="tarjetaDxiuamon" for="stenocercus">
+                    <p>Stenocercus</p>
+                    <img src="./assets/collarejo.png" alt="Stenocercus">
+                </label>
+            </div>
+             
+        <label class="btns" for="button_yotelijo">
+            <button id="button_yotelijo">Elegir</button>
+        </label>
+        </section>
+
+        <section id="seleccionar-ataque" class="attckselection">
+            <h1 class="titulo">🏞️💧⚡🍃🔥🏞️ XIUAMON! 🏞️🐢🐹🐸🐉🏞️</h1>
+            
+            <h2>Ordena ataque: </h2>
+
+            <div class="botonesrespon">
+                <label for="btn_LanzaLlamas" class="btns">
+                    <button id="btn_LanzaLlamas" class="btnsAtkc">🔥🔥🔥 Gata 🔥🔥🔥</button>
+                </label>
+                    <label for="btn_ChorroDagua" class="btns">   
+                <button id="btn_ChorroDagua" class="btnsAtkc"> 💧🌊💧 Sien 💧🌊💧</button>
+                </label>
+                <label for="btn_HojasNavaja" class="btns">
+                    <button id="btn_HojasNavaja" class="btnsAtkc">🍃🍃🍃 Su_quysca 🍃🍃🍃</button>
+                </label> 
+            </div>
+
+            <div id="mensajesBtlla" >
+                <p id="resultado">Suerte</p>
+                <section id="replay" class="btns">
+                    <label for="button_reiniciar">
+                        <button id="button_reiniciar" class="btnReplay">🍙Reiniciar🍙</button>
+                    </label>
+                </section>
+            </div>
+
+            <div class="ataques">
+                <div class="grillainfo">
+                    <p id="xiuamon_elegido"></p>
+                    <p id="psPlyr">❤️3</p>
+                    <div id="ataque_plyr"></div>
+                </div>
+                <div>
+
+                </div>
+                <div class="grillainfo">
+                    <p id="xiuamon_otrMstro"></p>
+                    <p id="psPC">🩶3</p>
+                    <div id="ataque_pc"></div>
+                </div>
+            </div>
+          </section>
+    </body>
+</html>
